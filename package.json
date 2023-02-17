@@ -1,0 +1,15 @@
+{
+  "name": "my-api-project",
+  "version": "1.0.0",
+  "description": "My API project",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
